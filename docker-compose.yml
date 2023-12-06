@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  bagelcat.api:
+    image: ${DOCKER_REGISTRY-}bagelcatapi
+    build:
+      context: .
+      dockerfile: BagelCat.Api/Dockerfile
