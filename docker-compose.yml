@@ -5,4 +5,4 @@ services:
     image: ${DOCKER_REGISTRY-}bagelcatapi
     build:
       context: .
-      dockerfile: BagelCat.Api/Dockerfile
+      dockerfile: src/BagelCat.Api/Dockerfile

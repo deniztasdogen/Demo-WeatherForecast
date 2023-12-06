@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BagelCat.Api", "BagelCat.Api\BagelCat.Api.csproj", "{BF205821-C7DD-41F0-80E3-C50A41E87665}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BagelCat.Api", "src\BagelCat.Api\BagelCat.Api.csproj", "{BF205821-C7DD-41F0-80E3-C50A41E87665}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BagelCat.Application", "BagelCat.Application\BagelCat.Application.csproj", "{98112AE8-1F19-4F98-8F91-E461599F3444}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BagelCat.Application", "src\BagelCat.Application\BagelCat.Application.csproj", "{98112AE8-1F19-4F98-8F91-E461599F3444}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BagelCat.Domain", "BagelCat.Domain\BagelCat.Domain.csproj", "{6C4C23A4-1EB8-4315-B9D6-0B26BBB90C24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BagelCat.Domain", "src\BagelCat.Domain\BagelCat.Domain.csproj", "{6C4C23A4-1EB8-4315-B9D6-0B26BBB90C24}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BagelCat.Messages", "BagelCat.Messages\BagelCat.Messages.csproj", "{848C7A77-ADCA-48C0-91B6-9370014A6610}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BagelCat.Messages", "src\BagelCat.Messages\BagelCat.Messages.csproj", "{848C7A77-ADCA-48C0-91B6-9370014A6610}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BagelCat.Infra.Persistance", "BagelCat.Infra.Persistance\BagelCat.Infra.Persistance.csproj", "{0EC29BC2-8261-427A-AD3B-274FB25D3D62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BagelCat.Infra.Persistance", "src\BagelCat.Infra.Persistance\BagelCat.Infra.Persistance.csproj", "{0EC29BC2-8261-427A-AD3B-274FB25D3D62}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BagelCat.Infra.EventingOutbox", "BagelCat.Infra.EventingOutbox\BagelCat.Infra.EventingOutbox.csproj", "{37F67C84-EC2F-45DC-8B17-DD51E0E75052}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BagelCat.Infra.EventingOutbox", "src\BagelCat.Infra.EventingOutbox\BagelCat.Infra.EventingOutbox.csproj", "{37F67C84-EC2F-45DC-8B17-DD51E0E75052}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BagelCat.Api.IntegrationTests", "BagelCat.Api.IntegrationTests\BagelCat.Api.IntegrationTests.csproj", "{39B4FB04-D91A-4E9D-945B-BE016921148B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BagelCat.Api.IntegrationTests", "src\BagelCat.Api.IntegrationTests\BagelCat.Api.IntegrationTests.csproj", "{39B4FB04-D91A-4E9D-945B-BE016921148B}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{535C0B57-3FF7-47C1-AF2E-BCECAF4CAE17}"
 EndProject
